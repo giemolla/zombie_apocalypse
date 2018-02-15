@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Zombie Apocalypse</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+	<div class="hero">
+		<h1 class="header">Welcome to Zombie Apocalypse!</h1>
+		<p class="hero-text">The world has been dominated by mad and murderous zombies. It all had begun when dangerous virus was released from some laboratory in Warsaw. Infected people turn into zombies. There are some poeple who are resistent to the virus and they have to fight againt zombies. You are one of these people...</p>
+	</div>
+
+	<div class="professions">
+		<div class="header2"><h2>Please choose your profession:</h2></div>
+		<div class="choose-option">
+			<div class="option">
+				<img src="images/police_officer.jpg">
+				<p><button class="choose-btn" value="policeman">Policeman</button></p>
+				<p>Health: 5</p>
+				<p>Strength: 5</p>
+				<p>Agility: 5</p>
+				<p>Inteligence: 5</p>
+			</div>
+			<div class="option">
+				<img src="images/scientist.jpg">
+				<p><button class="choose-btn" value="scientist">Scientist</button></p>
+				<p>Health: 5</p>
+				<p>Strength: 0</p>
+				<p>Agility: 0</p>
+				<p>Inteligence: 10</p>
+			</div>
+			<div class="option">
+				<img src="images/dancer.png">
+				<p><button class="choose-btn" value="dancer">Dancer</button></p>
+				<p>Health: 5</p>
+				<p>Strength: 0</p>
+				<p>Agility: 10</p>
+				<p>Inteligence: 0</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="chosen-profession">
+		<h2 id="ch-prof-txt"></h2>
+		<button class="next" id="next-btn">Continue</button>
+	</div>
+
+	<div class="opening-scene">
+		<p>You have just awaken. Where are you? White walls? Single bulb hanging on the ceinling... Oh right, it's a hospital. You remember being at a hospital. But why? Well, for now it remains a mystery.</p>
+		<p>You suddenly hear a noise. Some shuffling comes through the half-opened door. Through the window you see a shape of a man. But... Oh my god! This thing... This is definitely not a human being! At this moment you remember everyting...</p>
+		<p>You were tested to find out if you're resistent to the zombie-poison, the results are printed on your left arm. what a relief, you cannot be turned into some of them. But well, they can still kill you.</p>
+		<p>The zombie which passed your room door hasn't seen you for now. You have to go, find some safe place, because here is definitely not safe.</p>
+		<p>You get up, heading to the door. You decide to peek out...</p>
+		<p>Oh no, the zombie is still there! It's looking the other way, so maybe you can sneak to the stairway which is to the left?</p>
+		<p>Or maybe find some kind of weapon and try to kill the enemy? You look around and notice an axe.</p>
+		<p>What will you do?</p>
+		<button id="attack-btn">Attack</button>
+		<button id="sneak-btn">Sneak</button>
+		<button id="wait-btn">Wait and think</button>
+	</div>
+
+	<div class="first-result">
+		<p></p>
+		<button class="next">Continue</button>
+	</div>
+
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="script.js" type="text/javascript"></script>
+
+</body>
+</html>
